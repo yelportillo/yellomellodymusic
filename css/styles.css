@@ -1,20 +1,45 @@
 body {
-    background-image: url(../media/gear.jpg) ;
+    background-image: url(../media/gear.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
     background-attachment: fixed;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
 }
 
-h1 {color: rgb(0, 233, 233);}
+h1 {
+    color: rgb(0, 233, 233);
+    margin-top: 20px; /* Add some space at the top */
+}
 
-.logo {text-align: right;}
+.logo {
+    text-align: center; /* Center the logo */
+}
 
-.container {color: rgb(0, 233, 233);
-    text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+.logo img {
+    max-width: 100%; /* Ensure the logo scales with the viewport */
+    height: auto; /* Maintain aspect ratio */
+}
 
-.text {text-align: left;}
+.container {
+    color: rgb(0, 233, 233);
+    text-align: justify; /* Align text justified */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 20px; /* Add padding to the sides */
+}
+
+.text {
+    text-align: left;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 10px; /* Reduce padding for smaller screens */
+    }
+}
+
 
 
 
