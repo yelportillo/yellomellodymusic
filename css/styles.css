@@ -1,0 +1,20 @@
+body {
+    background-image: url(../media/gear.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: screen;
+    background-attachment: fixed;
+}
+
+h1 {color: rgb(0, 233, 233);}
+
+.logo {text-align: right;}
+
+.container {color: rgb(0, 233, 233);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+
+.text {text-align: left;}
+
+
+    
