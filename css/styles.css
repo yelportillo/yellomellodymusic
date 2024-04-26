@@ -1,41 +1,20 @@
 body {
-    background-image: url(../media/gear.jpg);
+    background-image: url(../media/gear.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
     background-attachment: fixed;
 }
 
-h1 {
-    color: rgb(0, 233, 233);
-}
+h1 {color: rgb(0, 233, 233);}
 
-.logo img,
-.img-yel {
-    max-width: 100%; /* Limit the maximum width of the images */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Ensure proper alignment */
-    margin: 0 auto; /* Center the images */
-}
+.logo {text-align: right;}
 
-.container {
-    color: rgb(0, 233, 233);
+.container {color: rgb(0, 233, 233);
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 0 20px; /* Add padding to the container */
-}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;}
 
-.text {
-    text-align: left;
-}
-
-/* Media Query for Mobile Devices */
-@media (max-width: 768px) {
-    .logo img,
-    .img-yel {
-        max-width: 80%; /* Adjust maximum width for smaller screens */
-    }
-}
+.text {text-align: left;}
 
 
 
