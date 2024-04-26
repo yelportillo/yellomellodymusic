@@ -10,15 +10,19 @@ h1 {
     color: rgb(0, 233, 233);
 }
 
-.logo {
-    text-align: center; /* Center the logo */
-    margin-bottom: 20px; /* Add some space below the logo */
+.logo img {
+    width: 100%; /* Make the logo responsive */
+    max-width: 300px; /* Limit the maximum width of the logo */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Ensure proper alignment */
+    margin: 0 auto; /* Center the logo */
 }
 
 .container {
     color: rgb(0, 233, 233);
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0 20px; /* Add padding to the container */
 }
 
 .text {
@@ -27,16 +31,11 @@ h1 {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
-    .logo {
-        text-align: center; /* Center the logo */
-    }
-    .container {
-        padding: 0 10px; /* Add padding to the container */
-    }
-    .text {
-        text-align: justify; /* Align text justified on mobile */
+    .logo img {
+        max-width: 200px; /* Adjust maximum width for smaller screens */
     }
 }
+
 
 
 
