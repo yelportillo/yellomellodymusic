@@ -12,7 +12,6 @@ h1 {
 
 .logo img,
 .img-yel {
-    width: 100%; /* Make the images responsive */
     max-width: 100%; /* Limit the maximum width of the images */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure proper alignment */
@@ -34,9 +33,10 @@ h1 {
 @media (max-width: 768px) {
     .logo img,
     .img-yel {
-        max-width: 90%; /* Adjust maximum width for smaller screens */
+        max-width: 80%; /* Adjust maximum width for smaller screens */
     }
 }
+
 
 
 
