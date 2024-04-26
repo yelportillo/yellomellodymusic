@@ -10,12 +10,13 @@ h1 {
     color: rgb(0, 233, 233);
 }
 
-.logo img {
-    width: 100%; /* Make the logo responsive */
-    max-width: 300px; /* Limit the maximum width of the logo */
+.logo img,
+.img-yel {
+    width: 100%; /* Make the images responsive */
+    max-width: 100%; /* Limit the maximum width of the images */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Ensure proper alignment */
-    margin: 0 auto; /* Center the logo */
+    margin: 0 auto; /* Center the images */
 }
 
 .container {
@@ -31,10 +32,12 @@ h1 {
 
 /* Media Query for Mobile Devices */
 @media (max-width: 768px) {
-    .logo img {
-        max-width: 200px; /* Adjust maximum width for smaller screens */
+    .logo img,
+    .img-yel {
+        max-width: 90%; /* Adjust maximum width for smaller screens */
     }
 }
+
 
 
 
