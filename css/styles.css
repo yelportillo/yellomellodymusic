@@ -1,20 +1,43 @@
 body {
-    background-image: url(../media/gear.jpg) ;
+    background-image: url(../media/gear.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-blend-mode: screen;
     background-attachment: fixed;
 }
 
-h1 {color: rgb(0, 233, 233);}
+h1 {
+    color: rgb(0, 233, 233);
+}
 
-.logo {text-align: right;}
+.logo {
+    text-align: center; /* Center the logo */
+    margin-bottom: 20px; /* Add some space below the logo */
+}
 
-.container {color: rgb(0, 233, 233);
+.container {
+    color: rgb(0, 233, 233);
     text-align: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
 
-.text {text-align: left;}
+.text {
+    text-align: left;
+}
+
+/* Media Query for Mobile Devices */
+@media (max-width: 768px) {
+    .logo {
+        text-align: center; /* Center the logo */
+    }
+    .container {
+        padding: 0 10px; /* Add padding to the container */
+    }
+    .text {
+        text-align: justify; /* Align text justified on mobile */
+    }
+}
+
 
 
     
