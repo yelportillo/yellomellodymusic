@@ -1,9 +1,5 @@
 body {
-    background-image: url(../media/gear.jpg) ;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-blend-mode: screen;
-    background-attachment: fixed;
+    background-color: black;
 }
 
 h1 {color: rgb(0, 233, 233);}
