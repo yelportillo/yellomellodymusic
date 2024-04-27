@@ -19,8 +19,6 @@ img {
     height: auto;
 }
 
-/* Add this CSS code to your styles.css file */
-
 .social-icons {
     text-align: center; /* Center the social media icons */
     margin-top: 20px; /* Adjust the top margin for spacing */
@@ -28,12 +26,12 @@ img {
 
 .social-icons a {
     display: inline-block; /* Make the links behave as blocks */
-    margin: 0 5px; /* Adjust the spacing between icons */
-    padding: 5px; /* Add padding to create button-like appearance */
+    margin: 0 10px; /* Adjust the spacing between icons */
+    padding: 10px; /* Add padding to create button-like appearance */
 }
 
 .social-icons img {
-    width: 20px; /* Set the width of the icons */
+    width: 40px; /* Set the width of the icons */
     height: auto; /* Maintain aspect ratio */
 }
 
