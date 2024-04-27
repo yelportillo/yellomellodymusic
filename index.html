@@ -2,114 +2,30 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
+    <!-- 
+        Viriel Banaag 
+        ITN 101-602
+        YelloMellodyMusic
+
+        HTML framework from w3schools. https://www.w3schools.com/html/default.asp
+    -->
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>YelloMellody Music</title>
-    <style>
-        /* CSS Styles */
-        body {
-            font-family: "Arial", sans-serif;
-            color: #333;
-            background-color: #f7f7f7;
-            margin: 0;
-            padding: 0;
-            background-image: url(../media/gear.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-blend-mode: screen;
-            background-attachment: fixed;
-        }
-
-        h1 {
-            color: rgb(0, 233, 233);
-            margin-top: 20px;
-        }
-
-        nav {
-            text-align: center;
-            margin-bottom: 20px;
-        }
-
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 10px;
-        }
-
-        nav ul li a {
-            text-decoration: none;
-            color: #333;
-            font-weight: bold;
-        }
-
-        .logo {
-            text-align: center;
-        }
-
-        .logo img {
-            max-width: 100%;
-            height: auto;
-        }
-
-        .container {
-            text-align: justify;
-            padding: 0 20px;
-        }
-
-        .text {
-            text-align: left;
-        }
-
-        .cta-button {
-            display: block;
-            width: 200px;
-            margin: 20px auto;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-align: center;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
-        /* Media Query for Mobile Devices */
-        @media (max-width: 768px) {
-            nav ul li {
-                display: block;
-                margin: 10px 0;
-            }
-
-            .container {
-                padding: 0 10px;
-            }
-        }
-
-    </style>
 </head>
 
 <body>
-    <!-- Navigation Menu -->
-    <nav>
-        <ul>
-            <li><a href="#about">About</a></li>
-            <li><a href="#music">Music</a></li>
-            <li><a href="#contact">Contact</a></li>
-        </ul>
-    </nav>
-
-    <!-- Logo -->
-    <div class="logo">
-        <img src="media/logo.png" alt="YelloMellody Music Logo">
-    </div>
-
-    <!-- Content Container -->
+    <div class="logo"><img src="media/logo.png" alt="logo"></div>
+    <!-- Logo created using Canva. https://www.canva.com -->
     <div class="container">
-        <h1>About YelloMellody</h1>
+        <h2>Check out a sneak peek of YelloMellody's upcoming single, Retrospect, coming soon in all music streaming platforms.</h2>
+        <p><audio controls autoplay>
+                <source src="media/music.mp3">
+                Your browser does not support the audio element.
+            </audio></p>
         <div class="text">
+            <h2>About YelloMellody</h2>
             <p>Meet Viriel Portillo Banaag, also known by his artistic moniker, Yel – a remarkable and gifted individual with an exceptional talent for music, artistry, production, and songwriting. His journey commenced in Surigao City, Philippines, where he was born, and later continued in Delaware, USA, where he was raised.</p>
             <p>Yel's passion for music was ignited during his time in high school when he joined the Technology Student Association's club. It was here that he discovered the thrilling world of music production, and his dedication to honing his skills became evident as he fearlessly participated in various competitions at both state and national levels.</p>
             <p>Representing Caesar Rodney High School, Yel's team secured an impressive 2nd place in Music Production at the State conference, showcasing his emerging prowess in the field. Even though the same level of triumph was not achieved at Nationals, Yel's unyielding spirit remained unshaken.</p>
@@ -117,27 +33,11 @@
             <p>Currently, Yel is embarking on a journey of knowledge at Delaware Technical Community College, where he is majoring in Information Technology and Networking, blending his love for technology with his musical inclinations.</p>
             <p>Beyond his musical endeavors, Yel finds joy in various other interests during his leisure time. He engages in basketball, soaring drones through the skies, and indulging in the arts of photography and filmmaking. His passion for capturing moments extends far beyond just the realm of music.</p>
             <p>Intriguingly, Yel has shared his awe-inspiring work with the world through multiple platforms, including SoundCloud, Apple Music, Amazon Music, Spotify, and Deezer. Each release is a testament to his unwavering dedication to his craft and serves as an eloquent reflection of his boundless potential for growth. His artistry and captivating music have not gone unnoticed, as he continues to captivate listeners and leave an indelible impression on all who experience his creations.</p>
+            <p>Contact YelloMellody: <a href="Contact.html">Contact</a></p>
+            <!-- View email address -->
         </div>
-        <a href="#contact" class="cta-button">Contact Us</a>
+        <img src="media/Yel.JPG" alt="Yel">
     </div>
-
-    <!-- Contact Form -->
-    <div id="contact">
-        <h1>Contact YelloMellody</h1>
-        <form action="/submit_feedback" method="post">
-            <label for="feedback">Feedback:</label>
-            <textarea id="feedback" name="feedback" rows="4" cols="50"></textarea><br>
-            <input type="submit" value="Submit">
-        </form>
-    </div>
-
-    <!-- Social Media Links -->
-    <div class="social-links">
-        <a href="https://instagram.com/letsveereal" target="_blank">Instagram</a>
-        <a href="https://facebook.com/virielportillo" target="_blank">Facebook</a>
-        <a href="https://youtube.com/virielportillo" target="_blank">YouTube</a>
-    </div>
-
 </body>
 
 </html>
