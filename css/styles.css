@@ -16,6 +16,12 @@ h1 {color: rgb(0, 233, 233);}
 
 .text {text-align: left;}
 
+/* Add this CSS code to your styles.css file */
+
+img {
+    max-width: 100%;
+    height: auto;
+}
 
 
 
