@@ -19,6 +19,20 @@ img {
     height: auto;
 }
 
+.social-icons {
+    text-align: center; /* Center the social media icons */
+    margin-top: 20px; /* Adjust the top margin for spacing */
+}
+
+.social-icons a {
+    display: inline-block; /* Make the links behave as blocks */
+    margin: 0 10px; /* Adjust the spacing between icons */
+}
+
+.social-icons img {
+    width: 30px; /* Set the width of the icons */
+    height: auto; /* Maintain aspect ratio */
+}
 
 
 
